@@ -1,0 +1,6 @@
+tuplex = (9,3,5,7,1)
+print(tuplex)
+listx = list(tuplex)
+listx.append(13)
+tuplex = tuple(listx)
+print(tuplex)
